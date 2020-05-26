@@ -13,6 +13,6 @@ jobs:
         with:
           username: ${{ secrets.DOCKERHUB_USER }}
           password: ${{ secrets.DOCKERHUB_PASSWORD }}
-          repository: replicatedhq/cloudflared
+          repository: replicated/cloudflared
           tag_with_ref: true
 
